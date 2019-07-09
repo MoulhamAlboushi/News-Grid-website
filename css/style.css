@@ -12,23 +12,38 @@
 }
 .container1 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 3fr 2fr 1fr;
   text-align: center;
   padding: 0 100px;
   border: black solid 1px;
   align-items: center;
 }
+.social a {
+  padding: 0 8px;
+}
+/* .main-nav {
+  display: grid;
+  padding: 0 5px;
+} */
 .ul-navbav-header {
   border: 1px solid black;
   display: grid;
-  grid-template-columns: 100px 100px;
-  background-color: #009cff;
-}
-ul {
+  grid-template-columns: 1fr 1fr;
+  /* width: 250px; */
+  grid-template-columns: auto auto;
+  /* background-color: #009cff; */
+  list-style: none;
+  text-decoration: non;
   color: black;
-  list-style: non;
+  padding: 0 15px;
+  font-size: 1.5em;
+  text-decoration: none;
 }
 .ul-navbav-header :hover {
   background-color: red;
   text-align: center;
+}
+.ul-navbav-header li {
+  color: black;
+  text-decoration: non;
 }
