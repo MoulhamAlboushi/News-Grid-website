@@ -43,7 +43,7 @@
   background-color: red;
   text-align: center;
 }
-.ul-navbav-header li {
+.current {
   color: black;
-  text-decoration: non;
+  text-decoration: none;
 }
