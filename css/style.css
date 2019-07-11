@@ -104,7 +104,9 @@ h6 {
   width: 100%;
   opacity: 0.4;
 }
-
+showcase-content {
+  z-index: 1;
+}
 .showcase .showcase-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
