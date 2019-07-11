@@ -88,15 +88,15 @@ h6 {
 }
 /* Showcase */
 .showcase {
-  color: #ccc;
-  background: rgb(139, 139, 139);
+  color: #fff;
+  background: #333;
   padding: 2rem;
   position: relative;
 }
 
-.showcase:befor {
+.showcase:before {
   content: "";
-  background: url("..//img/featured.jpg") no-repeat center center/cover;
+  background: url("../img/featured.jpg") no-repeat center center/cover;
   position: absolute;
   top: 0;
   left: 0;
