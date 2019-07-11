@@ -86,3 +86,21 @@ h6 {
   color: white;
   text-decoration: none;
 }
+/* Showcase */
+.showcase {
+  color: #ccc;
+  background: rgb(139, 139, 139);
+  padding: 2rem;
+  position: relative;
+}
+
+.showcase:befor {
+  content: "";
+  background: url("..//img/featured.jpg") no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.4;
+}
