@@ -114,3 +114,18 @@ showcase-content {
   align-items: center;
   height: 50vh;
 }
+.container-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  background-color: aqua;
+}
+
+.item1 {
+  display: grid;
+  grid-column: 1 / span 2;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  background-color: rgb(188, 253, 207);
+}
