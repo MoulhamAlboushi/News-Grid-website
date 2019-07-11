@@ -1,7 +1,7 @@
 :root {
   --primary-color: #a72121;
   --secondary-color: #f99500;
-  --light-color: f3f3f3;
+  --light-color: #f3f3f3;
   --dark-color: #333;
   /* --max-width: 1100px; */
 }
@@ -53,8 +53,12 @@ h6 {
   max-width: var(--max-width);
   margin: auto;
 }
+.container1 img {
+  width: 40%;
+}
 .social a {
   padding: 0 8px;
+  /* font-weight: bold; */
 }
 /* .main-nav {
   display: grid;
@@ -64,22 +68,20 @@ h6 {
   border: 1px solid black;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* width: 250px; */
   grid-template-columns: auto auto;
-  /* background-color: #009cff; */
   list-style: none;
   text-decoration: non;
   color: black;
   padding: 0 15px;
-  font-size: 1.5em;
+  font-weight: bold;
   text-decoration: none;
-  position: sticky;
 }
 .ul-navbav-header :hover {
-  background-color: red;
+  background-color: ver(--light-color);
   text-align: center;
 }
 .current {
+  background: ver(--primary-color);
   color: black;
   text-decoration: none;
 }
