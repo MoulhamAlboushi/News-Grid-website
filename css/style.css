@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #a72121;
+  --primary-color: #ec8a8a;
   --secondary-color: #f99500;
   --light-color: #f3f3f3;
   --dark-color: #333;
@@ -76,12 +76,12 @@ h6 {
   font-weight: bold;
   text-decoration: none;
 }
-.ul-navbav-header :hover {
-  background-color: ver(--light-color);
+.ul-navbav-header a :hover {
+  background: var(--light-color);
   text-align: center;
 }
 .current {
-  background: ver(--primary-color);
-  color: black;
+  background: var(--primary-color);
+  color: white;
   text-decoration: none;
 }
