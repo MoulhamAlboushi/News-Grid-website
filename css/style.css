@@ -78,6 +78,7 @@ h6 {
 }
 .ul-navbav-header a :hover {
   background: var(--light-color);
+  color: var(--dark-color);
   text-align: center;
 }
 .current {
