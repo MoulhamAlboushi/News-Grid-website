@@ -177,6 +177,6 @@ showcase-content {
   grid-column: 2 / 4;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
-  background-color: rgb(188, 253, 207);
+  background-color: rgb(0, 224, 250);
   padding: 1rem;
 }
