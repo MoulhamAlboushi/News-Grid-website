@@ -121,6 +121,7 @@ showcase-content {
   grid-gap: 1rem;
   background-color: aqua;
   padding: 1rem;
+  /* width: 1100px; */
 }
 
 .item1 {
