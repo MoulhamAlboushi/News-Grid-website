@@ -120,6 +120,7 @@ showcase-content {
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-gap: 1rem;
   background-color: aqua;
+  padding: 1rem;
 }
 
 .item1 {
@@ -128,4 +129,19 @@ showcase-content {
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
   background-color: rgb(188, 253, 207);
+  padding: 1rem;
+}
+
+.item2 {
+  background-color: rgb(117, 117, 117);
+  color: white;
+  padding: 1rem;
+}
+.item3 {
+  display: grid;
+  grid-row: 2 / -2;
+  grid-template-rows: 1fr repeat(3, auto);
+  grid-gap: 1rem;
+  background-color: rgb(0, 0, 100, 0.5);
+  padding: 1rem;
 }
