@@ -1,13 +1,14 @@
 :root {
   --primary-color: #ec8a8a;
-  --secondary-color: #f99500;
+  --secondary-color: #f6f862;
   --light-color: #f3f3f3;
   --dark-color: #333;
+
   /* --max-width: 1100px; */
 }
 .category {
   --sport-color: #f99500;
-  --end-color: #66bbe;
+  --end-color: #66bbee;
   --tech-color: #009cff;
 }
 * {
@@ -60,17 +61,19 @@ h6 {
   padding: 0 8px;
   /* font-weight: bold; */
 }
-/* .main-nav {
-  display: grid;
-  padding: 0 5px;
-} */
+.main-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
 .ul-navbav-header {
   border: 1px solid black;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-columns: auto auto;
   list-style: none;
-  text-decoration: non;
+  text-decoration: none;
   color: black;
   padding: 0 15px;
   font-weight: bold;
@@ -124,6 +127,19 @@ showcase-content {
   /* width: 1100px; */
 }
 
+/* .category {
+  background: var(--primary-color);
+  padding: 5px;
+  border-radius: 100px;
+  width: auto;
+}
+
+.category:hover {
+  color: var(--tech-color);
+  background-color: var(--end-color);
+  border-radius: 100px;
+} */
+
 .item1 {
   display: grid;
   grid-column: 1 / span 2;
@@ -141,7 +157,7 @@ showcase-content {
 .item3 {
   display: grid;
   grid-row: 2 / -2;
-  grid-template-rows: 1fr repeat(3, auto);
+  grid-template-rows: 0.75fr repeat(3, auto);
   grid-gap: 1rem;
   background-color: rgb(0, 0, 100, 0.5);
   padding: 1rem;
