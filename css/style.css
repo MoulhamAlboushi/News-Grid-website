@@ -57,6 +57,11 @@ h6 {
 .container1 img {
   width: 40%;
 }
+@media (max-width: 768px) {
+  .container1 {
+    grid-template-columns: repeat(2, auto);
+  }
+}
 .social a {
   padding: 0 8px;
   /* font-weight: bold; */
@@ -125,6 +130,11 @@ showcase-content {
   background-color: aqua;
   padding: 1rem;
   /* width: 1100px; */
+}
+@media (max-width: 700px) {
+  .container-items {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 /* .category {
