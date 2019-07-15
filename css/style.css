@@ -164,13 +164,21 @@ showcase-content {
   padding: 5px;
   border-radius: 100px;
   width: auto;
-}
+}*/
 
 .category:hover {
-  color: var(--tech-color);
+  color: var(--dark-color);
   background-color: var(--end-color);
   border-radius: 100px;
-} */
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  background: var(--dark-color);
+  color: var(--light-color);
+  padding: 0.5rem 1.5rem;
+}
 
 .item1 {
   display: grid;
@@ -216,8 +224,6 @@ showcase-content {
 .item6 {
   background-color: rgb(223, 77, 113);
   display: grid;
-  /* grid-row: 2 / -2; */
-  /* grid-template-rows: 1fr repeat(3, auto); */
   grid-gap: 1rem;
   padding: 1rem;
 }
