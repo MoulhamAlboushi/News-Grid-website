@@ -179,6 +179,19 @@ showcase-content {
   color: var(--light-color);
   padding: 0.5rem 1.5rem;
 }
+.btn-ligt {
+  background: var(--light-color);
+}
+.btn-primary {
+  background: var(--primary-color);
+}
+.btn-secondery {
+  background: var(--secondary-color);
+}
+
+.btn:hover {
+  opacity: 0.6;
+}
 
 .item1 {
   display: grid;
