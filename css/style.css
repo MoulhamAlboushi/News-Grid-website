@@ -2,7 +2,7 @@
   --primary-color: #ec8a8a;
   --secondary-color: #f6f862;
   --light-color: #f3f3f3;
-  --dark-color: #333;
+  --dark-color: rgb(128, 126, 126);
 
   /* --max-width: 1100px; */
 }
@@ -252,18 +252,21 @@ showcase-content {
 .main-footer {
   background: var(--dark-color);
   color: fff;
+  padding: 1rem;
 }
 .main-footer a {
   color: #fff;
 }
 .main-footer .footer-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr) 0.6fr 1fr;
   grid-gap: 1.5rem;
 }
 .footer5 {
-  background: rgb(114, 108, 108);
+  background: rgb(80, 80, 80);
   grid-column: 1 / 5;
+  color: white;
+  text-align: center;
 }
 /* .footer3 {
   grid-column: 3 / 5;
