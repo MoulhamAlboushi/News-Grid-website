@@ -159,13 +159,6 @@ showcase-content {
   }
 }
 
-/* .category {
-  background: var(--primary-color);
-  padding: 5px;
-  border-radius: 100px;
-  width: auto
-}*/
-
 .category:hover {
   color: var(--dark-color);
   background-color: var(--end-color);
@@ -266,6 +259,9 @@ showcase-content {
 .main-footer h3 {
   font-family: Arial, Helvetica, sans-serif;
 }
+.footer1 img {
+  width: 70%;
+}
 .footer3 li {
   list-style: none;
 }
@@ -279,6 +275,3 @@ showcase-content {
   color: white;
   text-align: center;
 }
-/* .footer3 {
-  grid-column: 3 / 5;
-} */
