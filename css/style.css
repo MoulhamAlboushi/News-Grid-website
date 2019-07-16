@@ -248,3 +248,23 @@ showcase-content {
   background-color: rgb(0, 224, 250);
   padding: 1rem;
 }
+
+.main-footer {
+  background: var(--dark-color);
+  color: fff;
+}
+.main-footer a {
+  color: #fff;
+}
+.main-footer .footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+}
+.footer5 {
+  background: rgb(114, 108, 108);
+  grid-column: 1 / 5;
+}
+/* .footer3 {
+  grid-column: 3 / 5;
+} */
